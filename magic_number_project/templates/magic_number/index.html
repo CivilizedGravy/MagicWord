@@ -31,11 +31,14 @@
 			{%elif is_correct%}
 				<div class="alert alert-success"><strong>BITCH U GUESSED IT</strong> u waz rite </div>
 				<audio autoplay="true">
-				    <source src="/media/uguessedit.mp3" type="audio/mp3" >
+				    <source src="/media/uguessedit_right.mp3" type="audio/mp3" >
 				</audio>
 			{%else%}
 				<div class="alert alert-danger"><strong> HWAH! </strong> nope</div>
 			{%endif%}
+			<audio autoplay="true" loop="true">
+				<source src="/media/uguessedit_beatclip.mp3">
+			</audio>
 
 
 			<form method="post" autocomplete="off" >
