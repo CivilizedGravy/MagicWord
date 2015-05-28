@@ -1,4 +1,4 @@
-"""magic_number_project URL Configuration
+"""magic_word_project URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.8/topics/http/urls/
@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import include, url, patterns
 from django.contrib import admin
-from magic_number import views
+from magic_word import views
 from django.conf import settings
 urlpatterns = [
 	url(r'^$', views.index, name='index'),

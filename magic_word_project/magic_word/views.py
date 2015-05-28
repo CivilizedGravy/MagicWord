@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.exceptions import ValidationError
-from magic_number.models import Guess
-from magic_number.forms import GuessForm
+from magic_word.models import Guess
+from magic_word.forms import GuessForm
 import random
 # Create your views here.
 
@@ -31,7 +31,7 @@ def index(request):
 	
 	
 	context_dict = {'is_correct' : is_correct, 'guessform'  : guessform}
-	return render(request, 'magic_number/index.html', context_dict)
+	return render(request, 'magic_word/index.html', context_dict)
 
 
 def check(request):

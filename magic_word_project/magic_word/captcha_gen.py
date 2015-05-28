@@ -1,5 +1,5 @@
 import random 
-from magic_number.models import Guess
+from magic_word.models import Guess
 
 def gen():
 	

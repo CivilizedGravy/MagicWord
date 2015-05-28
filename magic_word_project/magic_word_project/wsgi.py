@@ -1,5 +1,5 @@
 """
-WSGI config for magic_number_project project.
+WSGI config for magic_word_project project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -21,7 +21,7 @@ os.chdir(path)
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "magic_number_project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "magic_word_project.settings")
 import django
 django.setup()
 

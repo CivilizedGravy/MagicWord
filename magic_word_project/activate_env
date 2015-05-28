@@ -1,0 +1,3 @@
+#!/bin/bash
+
+source '/home/civilizedgravy/code/magic_number_project/magic_number_env/bin/activate' 

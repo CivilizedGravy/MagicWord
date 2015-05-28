@@ -1,7 +1,7 @@
 from django import forms
 from django.template.defaultfilters import mark_safe
 from captcha.fields import CaptchaField
-from magic_number.models import Guess
+from magic_word.models import Guess
 
 
 class GuessForm(forms.ModelForm):
